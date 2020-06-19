@@ -1,0 +1,85 @@
+#bte_free {
+	margin-left: 55%;
+	width: 70%;
+}
+
+
+#listActionF {
+	width: 70%;
+	margin-left: 55%;
+	color: red;
+}
+
+#listActionR {
+	width: 70%;
+	margin-left: 55%;
+}
+
+#searsh {
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 30%;
+	
+}
+
+#text {
+	width: 50em;
+	height: 3em;
+	font-size: 20px;
+	color: black;
+	background: grey;	
+	border: solid;
+	border-radius: 2em;	
+	margin-left: 10%;
+	margin-top: 217px;
+}
+/* Style bouton connecter*/
+#btnc {
+	margin-left: 89%;
+		
+}
+/* ? */
+#btsS {
+	margin-left: 50%;
+}
+
+/* ?*/
+#collapseExample {
+	margin-left: 25%;
+}
+/* s'inscrire */
+#test{
+   margin-left: 67em;
+}
+/* ? */
+#btnSS {
+	margin-top: 75px;
+}
+/* body connexion */
+#bodyConex {
+	width: 50%;
+}
+
+#btnDecon {
+	margin-top: 18px;
+}
+#btnConted{
+	
+	margin-left: 940px;
+}
+
+#bodyIn {
+		width: 10%;
+		color : red;
+}
+
+#d  {
+	width: 30%;
+	color : red;
+}
+
+
+#rr {
+	color : red;
+	
+}
