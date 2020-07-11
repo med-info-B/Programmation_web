@@ -1,0 +1,168 @@
+.body-page
+{
+    background-color: greenyellow;
+    height: 80em;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header
+{
+    border: black solid 1px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(98, 214, 98);
+  
+}
+header figure 
+{
+    border-right: solid black 1px;
+    padding-right: 26px;
+    font-family: Chilanka,"Times New Roman", Times, serif;
+}
+    header section img
+  {
+      
+      width: 12em ;
+      height: 8em;
+  }
+  header section
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+header figure img
+{
+  width: 5em;
+  height: 5em;
+  margin-top: 10px;
+
+}
+
+header section img:hover
+{
+    border: black solid 2px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+header figure:hover
+{
+    font-weight: bold;
+}
+.body-nav
+{
+    border: green solid 1px;
+    border-radius: 10px;
+    height: 50%;
+    display: flex;
+}
+
+.nav
+{
+    border: solid green 1px;
+    border-radius: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+nav ul li
+{
+    border: black solid 1px;
+    background-color: green;
+    box-shadow:12px 12px 2px 1px rgba(74, 150, 90, 0.2);
+    border-radius: 10px;
+    height: 3em ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+nav ul li:hover
+{
+    border-width: 3px;
+    font-weight: bold;
+    
+}
+
+
+.sous_menu
+{
+    list-style-type: none;
+    margin-left: 12.8em;
+    display: flex;
+    flex-direction:column ;
+    position: relative;
+    bottom: 2em;
+    width: 6em;
+    display: none;
+}
+
+
+
+
+.nav figure img
+{
+    width: 15em;
+    height: 15em;
+    position: relative;
+    right: 22px;;
+}
+
+.deroulant:hover .sous_menu
+{
+    display: block;
+}
+
+
+/* style of footer*/
+
+footer
+{
+    background-color: rgb(104, 126, 104);
+}
+
+ .icon_reseau
+ {
+     display: flex;
+     justify-content: center;
+     border-top: black solid 1px;
+  
+ }
+
+
+ .icon_conatact
+ {
+     display: flex;
+     justify-content:space-around;
+     list-style-type: none;
+     height: 8em;
+
+ }
+
+ .icon_reseau img
+ {
+     width: 2em;
+     height: 2em;
+     padding: 2em;
+ }
+ .icon_reseau img:hover
+ {
+     width: 3em;
+     height: 3em;
+ }
+
+.a ul
+{
+    list-style-type: none;
+}
