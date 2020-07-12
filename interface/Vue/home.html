@@ -8,6 +8,7 @@
         <title> Home Page </title>
         <link rel="icon" type="image/png" href="../ressource/image/header/palm.png"/>
         <link rel="stylesheet"  href="../ressource/style/styleFG.css"/>
+        <!-- end Metadonnee-->
     </head>
     <!-- Body -->
     <body>
@@ -36,7 +37,7 @@
                         <ul>
                             <li class="deroulant"> Histoire
                                 <ul class="sous_menu">
-                                    <li> Culture </li>
+                                    <li class="cul" onclick="launch()"> Culture </li>
                                     <li> Religion </li>
                                     <li> Science </li>
                                 </ul>
@@ -53,8 +54,8 @@
                 </figure>
                 </section>
                 <section class="nav-contenu">
-                    <article class="culture">
-
+                    <article class="culture" id="c">
+                        La présence humaine est attestée dans la région de Figuig depuis l'Antiquité par de multiples sites de gravures rupestres le long du parcours de Zouzefana. C'est le Figuig de la littérature coloniale qui englobait tout le bassin de l'oued. Pour l'anecdote, la nomination Zouzfana proviendrait vraisemblablement d'une princesse ou notable de la période romaine nommée Josephina. Il est plus probable qu'il viendrait du nom Sidi Youssef dans sa version romanisée, Joseph; qui serait rattaché au suffixe ine (in aux masculin) pour l'appartenance, ce qui signifierait: la vallée de Joseph; à moins que ce ne soit vraiment une femme qui est enterré au lieu-dit Tamezzought. Mais, il n y a aucune étude sur le sujet, d'autan qu'il y a beaucoup de lieux datant de la période anté-islamique et qui seraient sacralisés comme marabouts dans le Grand Maghreb. Les gravures dont il est question dans ce paraghraphe, ne laissent aucun doute sur l'identité des populations qui ont habité la région depuis, à savoir les Berbères. Elles sont composées d'images d'animaux parsemées de mots ou de signes en caractères Tifinagh. Les sites connus jusqu'à maintenant sont ceux de Tadrart n Hammou Hakkou Cheda (col de Zenaga), Ighzer Acherquiy, et El Arja2. La famille Hakkou est désormais la famille la plus ancienne de cette ville.     
                     </article>
                     <article class="religion">
 
@@ -62,9 +63,6 @@
                     <article class="science">
 
                     </article>
-
-                </section>
-           
            
             </div>
             <footer>
@@ -94,5 +92,10 @@
               </footer> 
         </div>
     </body>
+    <script>
+        function launch(){
+                document.getElementById("c").style.display = "block";
+        }
+    </script>
 
 </html>
