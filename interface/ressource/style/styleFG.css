@@ -1,6 +1,6 @@
 .body-page
 {
-    background-color: greenyellow;
+    background-image: linear-gradient(rgb(125, 221, 125),green);
     height: 80em;
     margin-left: 5em;
     margin-right: 5em;
@@ -15,7 +15,8 @@ header
     border: black solid 1px;
     border-radius: 10px;
     display: flex;
-    background-color: rgb(98, 214, 98);
+    background-image: linear-gradient(rgb(48, 235, 48), green);
+
   
 }
 header figure 
@@ -29,6 +30,9 @@ header figure
       
       width: 12em ;
       height: 8em;
+      border: black solid 2px;
+      border-radius: 5px;
+      
   }
   header section
   {
@@ -39,14 +43,16 @@ header figure img
 {
   width: 5em;
   height: 5em;
-  margin-top: 10px;
+
 
 }
 
 header section img:hover
 {
     border: black solid 2px;
+    border-radius: 10px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    transform: scaleX(1.5);
 }
 
 header figure:hover
@@ -79,7 +85,7 @@ nav ul
 nav ul li
 {
     border: black solid 1px;
-    background-color: green;
+    background-image: linear-gradient(to right,rgb(89, 196, 89),rgb(27, 168, 27));
     box-shadow:12px 12px 2px 1px rgba(74, 150, 90, 0.2);
     border-radius: 10px;
     height: 3em ;
@@ -92,6 +98,7 @@ nav ul li:hover
 {
     border-width: 3px;
     font-weight: bold;
+    transform: scaleX(1.2);
     
 }
 
@@ -99,7 +106,7 @@ nav ul li:hover
 .sous_menu
 {
     list-style-type: none;
-    margin-left: 12.8em;
+    margin-left: 11em;
     display: flex;
     flex-direction:column ;
     position: relative;
@@ -118,7 +125,14 @@ nav ul li:hover
     position: relative;
     right: 22px;;
 }
+.nav figure img:hover
+{
+    border: solid black 2px;
+    box-shadow:12px 12px 2px 1px rgba(74, 150, 90, 0.2);
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
 
+}
 .deroulant:hover .sous_menu
 {
     display: block;
