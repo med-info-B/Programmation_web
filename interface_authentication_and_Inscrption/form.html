@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formualaire d'inscription et de connexion </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet"  href="from_style.css"/>
+    </head>
+    <body >
+        
+        <header> 
+            <h1 id="titre-auth"> Authentification </h1> 
+            <h1 id="titre-sub"> Inscription </h1>
+            
+            
+        </header>
+        <div class="box-form">
+            <form action="traitement.html" id="z">
+                <div class="q">
+                    <label for="log" class="label"> Login : </label> <input type="text" id="log" name="login"/>
+                </div>
+                <div class="q">
+                    <label for="pd" class="label" > PassWord : </label> <input type="text" id="pd" name="pwd"/>
+                </div>
+                <button class="button-connexion button-postion"> connexion </button>
+            </form>
+                <button class="button-postion" onclick="test()" id="e"> S'inscrire </button>
+           
+            
+                <form action="traitement.html" id="box-sub">
+                 <div>
+                    <label for="log" class="label"> Login : </label> <input type="text" id="log" name="login"/> 
+                </div>
+                   <div>
+                    <label for="log" class="label"> Prénom : </label> <input type="text" id="log" name="login"/>
+                </div>
+                <div>
+                    <label for="log" class="label"> Nom : </label> <input type="text" id="log" name="login"/>
+                </div>
+                <div>
+                    <label for="log" class="label"> PassWord : </label> <input type="text" id="log" name="login"/>
+                </div>
+                <div>
+                    <label for="log" class="label"> Confirmer : </label> <input type="text" id="log" name="login"/>
+                </div>
+                <button class="button-regitser"> Enregistrer </button>
+                <div>
+                    <a href="form.html"> Se Connecter </a>
+                </div>
+            </form>
+       
+        </div>
+
+    </body>
+</html>
+
+
+<script>
+    function test(){
+        document.getElementById("titre-auth").style.display ="none";
+        document.getElementById("z").style.display ="none";
+        document.getElementById("e").style.display ="none";
+        document.getElementById("box-sub").style.display = "block";
+        document.getElementById("titre-sub").style.display = "block";
+    }
+</script>

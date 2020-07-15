@@ -1,0 +1,114 @@
+
+
+body {
+   background-image: linear-gradient(rgb(236, 236, 250), rgb(70, 70, 139));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.box-form {
+    width: 22em;
+    height: 22em ;
+    background-image: linear-gradient(rgb(185, 109, 109),white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: black 6px 6px 6px;
+}
+
+header {
+    background-color: beige;
+    height: 5em;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+#titre-sub {
+  display: none;
+}
+#titre-auth{
+    display: block;
+}
+
+
+
+
+#box-sub{
+    margin-right: 2em;
+    display: none;
+    position: relative;
+    left: 0px;
+}
+
+
+label
+{ 
+    margin-left: 1em;   
+}
+
+ input {
+    margin-right: 3em;
+    height: 1em;
+}
+.box-form div {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Style of button */
+.button-postion {
+    width: 9em;
+    margin-top: 1em;
+    margin-left: 12em;
+    background-color: blue;
+    border-radius: 10px;
+    height: 2em;
+    color: wheat;
+
+}
+.button-postion:hover, .button-regitser:hover {
+    background-color: yellow;
+    color: black;
+}
+.button-connexion {
+   
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+}
+
+
+.button-regitser {
+    margin-left: 10em;
+    margin-top: 3em;
+    background-color: blue;
+    border-radius: 10px;
+    height: 2em;
+    color: wheat;
+    width: 9em;
+
+}
+
+
+div a {
+    text-align: center;
+    margin-left: 9.5em;
+}
+
+
